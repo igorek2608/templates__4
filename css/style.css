@@ -79,7 +79,7 @@ font-size: 48px;
 line-height: 64px;
 text-align: center;
 color: #FFFFFF;
-padding: 2% 25%;
+margin: 2% 20%;
 }
 
 .projects{
@@ -94,10 +94,31 @@ padding: 10px 5px;
 }
 
 .projects__link{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+text-decoration: none;
+color: #FFFFFF;
+}
+
+
+
+
+/******apps***************/
+
+.title__mobile{
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
     text-align: center;
-    text-decoration: none;
-    color: #FFFFFF;
+    padding: 100px 50px 50px 50px;
+}
+
+.title__apps{
+font-weight: bold;
+font-size: 36px;
+line-height: 53px;
+padding: 2% 22%;
+
 }
