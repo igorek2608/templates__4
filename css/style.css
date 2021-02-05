@@ -292,6 +292,7 @@ padding: 2% 22%;
 .work{
     background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
     height: 490px;
+    
 }
 
 .work__text{
@@ -339,6 +340,7 @@ padding: 2% 22%;
     margin: 0 auto;
     border-bottom: 1px solid #F6F6F8;
     padding-bottom: 6%;
+   
 }
 
 .research{
@@ -378,4 +380,47 @@ padding: 2% 22%;
 
 .work__item{
     width: 32% ;
+}
+
+
+
+/*******our projects*****/
+.our__projects{
+    margin-top: 32%;
+    background: #F6F6F8;
+    padding-bottom: 8%;
+}
+
+.projects__info{
+    text-align: center;
+    padding: 7% 25%;
+}
+
+.projects__info p:first-child{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    color: black;
+    padding-bottom: 4%;
+}
+
+.projects__info p:last-child{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    color:#999999;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.projects__images{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 5%;
 }
