@@ -92,6 +92,7 @@ text-align: center;
 max-width: 200px;
 margin: 0 auto;
 padding: 10px 5px;
+width: 100%;
 }
 
 .projects__link{
@@ -283,4 +284,98 @@ padding: 2% 22%;
     font-size: 16px;
     line-height: 25px; 
     color: #999999; 
+}
+
+
+/**********our work******/
+
+.work{
+    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+    height: 490px;
+}
+
+.work__text{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    color: #FFFFFF;
+    
+}
+
+.work__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 100px 0px 70px 0;
+}
+.services{
+    background: #4985FF;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    text-align: center;
+    max-width: 200px;
+    padding: 10px 5px;
+    width: 100%;
+}
+
+.servises__link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;  
+}
+
+.work__wraper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 1px solid #F6F6F8;
+    padding-bottom: 6%;
+}
+
+.research{
+    display: flex;
+    padding: 20px 10px 20px 0;
+}
+
+.research p:first-child{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4985FF;
+}
+
+.research p:last-child{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color:black;
+    
+}
+
+.work__item p{
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+.work__item a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4985FF;
+}
+
+.work__item{
+    width: 32% ;
 }
