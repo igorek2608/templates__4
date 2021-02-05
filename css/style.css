@@ -545,13 +545,14 @@ padding: 1% 0.5%;
     box-shadow: 0px 0px 10px;
     align-content: center;
     
+    
 }
 
 .email__text{
     font-size: 13px;
 line-height: 21px;
 color: #999999;
-padding: 1% 0 0 5%;
+padding: 2% 0 0 5%;
 text-align: center;
 }
 
@@ -563,8 +564,9 @@ text-align: center;
 color: white;
 background: #4985FF;
 border-radius: 0px 30px 30px 0px ;
-width: 40%;
-padding-top: 1%;
+width: 190px;
+height: 45px;
+padding-top: 2%;
 }
 
 .spam{
@@ -574,3 +576,4 @@ text-align: center;
 color: #999999;
 padding-top: 2%;
 }
+
